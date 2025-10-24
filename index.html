@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Computational Biology and Biomedicine Lab (CBB Lab) — advancing biology and medicine through computational modeling and in silico research." />
+  <title>CBB Lab | Computational Biology and Biomedicine</title>
+  <style>
+    /* ===== Global Styles ===== */
+    body {
+      margin: 0;
+      font-family: "Inter", Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f9f9fb;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a73e8, #00bfa5);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem 5rem;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0.5rem 0;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #1a73e8;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bfa5;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    section h2 {
+      color: #1a73e8;
+      border-left: 5px solid #00bfa5;
+      padding-left: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    .research-list, .pub-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .research-list li, .pub-list li {
+      background: white;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: #1a73e8;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #00bfa5;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 0.5rem;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #00997f;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      nav ul li { margin: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <img src="logo.png" alt="CBB Lab Logo" width="100" />
+    <h1>Computational Biology and Biomedicine Lab (CBB Lab)</h1>
+    <p>Exploring biology and medicine through computation and simulation.</p>
+  </header>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      The <strong>Computational Biology and Biomedicine Lab (CBB Lab)</strong> advances research at the intersection of biology, medicine, and computational science.
+      We develop and share <em>in silico</em> models that help explore complex cellular, molecular, and biomedical systems.
+    </p>
+    <p>
+      Our mission is to foster open, collaborative, and reproducible research in computational biology and biomedicine.
+    </p>
+  </section>
+
+  <!-- ===== RESEARCH ===== -->
+  <section id="research">
+    <h2>Research Focus</h2>
+    <ul class="research-list">
+      <li><strong>Cellular and Molecular Simulations:</strong> Modeling biological systems to understand complex interactions.</li>
+      <li><strong>Biomedical Modeling:</strong> Simulating physiological processes and disease dynamics.</li>
+      <li><strong>Systems Biology:</strong> Integrating data-driven and mechanistic models for biological insight.</li>
+      <li><strong>AI and Computational Methods:</strong> Applying machine learning to biomedical challenges.</li>
+    </ul>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section id="publications">
+    <h2>Publications & Outputs</h2>
+    <ul class="pub-list">
+      <li>
+        <strong>Modeling Membrane Dynamics in Biophysical Simulations.</strong><br />
+        Presented at the 2025 International Conference on Cell Biophysics.<br />
+        <a href="#" class="btn">View on Zenodo</a>
+      </li>
+      <li>
+        <strong>In Silico Modeling of Biomedical Systems.</strong><br />
+        Journal of Computational Biomedicine, 2024. DOI: 10.xxxx/zenodo.xxxxx<br />
+        <a href="#" class="btn">Read Article</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== COMMUNITY ===== -->
+  <section id="community">
+    <h2>Community</h2>
+    <p>
+      Visit our Zenodo community to access open research outputs, datasets, and models:  
+      <br /><a href="https://zenodo.org/communities/cbb-lab/" target="_blank" class="btn">CBB Lab Zenodo Community</a>
+    </p>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section id="team">
+    <h2>Team</h2>
+    <p><strong>Founder:</strong> [Your Name]</p>
+    <p>
+      The CBB Lab collaborates with independent researchers, students, and enthusiasts in computational biology and biomedicine.
+      Interested contributors are always welcome.
+    </p>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>ORCID: <a href="#" target="_blank">your-orcid-link</a></p>
+    <p>GitHub: <a href="#" target="_blank">github.com/yourusername</a></p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    © 2025 CBB Lab — Computational Biology and Biomedicine Lab. All rights reserved.
+  </footer>
+</body>
+</html>
